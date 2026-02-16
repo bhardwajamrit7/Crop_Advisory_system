@@ -111,6 +111,13 @@ This makes the system more practical and decision-support oriented.
 - Cross-Validation Mean & Standard Deviation
 
 ---
+## 📊 Model Performance
+
+- Test Accuracy: 99.31%
+- 5-Fold Stratified Cross-Validation Accuracy: 99.38%
+- Cross-Validation Standard Deviation: 0.0033
+- The low variance across folds confirms model stability and minimal overfitting.
+
 
 ## 🔬 Feature Importance Insight
 
@@ -141,10 +148,19 @@ This improves interpretability of the model.
 ## 📂 Project Structure
 
 
-Crop_Advisory_System/
+Crop_Advisory_system/
 │
-├── CropAdvisory.ipynb
-├── Crop_Model_Tuning.ipynb
-├── Crop_recommendation.csv
-├── README.md
-
+├── data/
+│ └── Crop_recommendation.csv
+│
+├── notebooks/
+│ ├── Crop_Model_Tuning.ipynb
+│ └── CropAdvisory.ipynb
+│
+├── models/
+│ ├── crop_recommendation_model.pkl
+│ ├── scaler.pkl
+│ └── label_encoder.pkl
+│
+├── .gitignore
+└── README.md
