@@ -182,7 +182,7 @@ Crop_Advisory_system/
 │   ├── Crop_Model_Tuning.ipynb
 │   ├── CropAdvisory.ipynb
 │   ├── Crop_clustering_analysis.ipynb
-│   └── new_clustering.ipynb   ⭐ FINAL MODEL
+│   └── experiment_clustering.ipynb   ⭐ FINAL MODEL
 │
 ├── models/
 │   ├── crop_recommendation_model.pkl
